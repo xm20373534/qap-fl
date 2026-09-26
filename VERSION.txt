@@ -1,0 +1,3 @@
+QAP-FL reproducibility bundle v1
+Protocol: D403 variable-budget official-BLS main tables
+Checkpoint: d389_assign_swap.pt
