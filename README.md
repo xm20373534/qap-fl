@@ -1,9 +1,9 @@
-# QAP-FL Anonymous Reproducibility Artifact
+# QAP-SCP Anonymous Reproducibility Artifact
 
-This bundle contains the smallest runnable path for the three QAP-FL main
-tables: synthetic QAP, Taixxeyy, and QAPLIB. It includes the frozen QAP-FL
+This bundle contains the smallest runnable path for the three QAP-SCP main
+tables: synthetic QAP, Taixxeyy, and QAPLIB. It includes the frozen QAP-SCP
 checkpoint, the 39-dimensional node feature construction, the 8-dimensional
-FAQ/structural compatibility features, the 80-candidate QAP-FL portfolio, the
+FAQ/structural compatibility features, the 80-candidate QAP-SCP portfolio, the
 official C++ BLS executable used by the paper protocol, and the required data.
 
 The runner compares the paper method with the matched single-start BLS
@@ -60,7 +60,7 @@ the published best-known values; QAPLIB gaps use the bundled `.sln` values.
 * Taixxeyy budgets are 2/5/20/30/40 seconds for n=27/45/75/125/175.
 * QAPLIB budgets are 4 seconds for ordinary n<=100, 10 seconds for hard
   families or n>100, and 20/40 seconds for the larger Tai tiers.
-* QAP-FL builds four relabeling orbits, decodes 40 learned plus 40 random
+* QAP-SCP builds four relabeling orbits, decodes 40 learned plus 40 random
   candidates, keeps four diverse candidates per source, probes all eight, then
   refines the best learned and random survivors.
 * All timing includes candidate construction, process launch, and backend
